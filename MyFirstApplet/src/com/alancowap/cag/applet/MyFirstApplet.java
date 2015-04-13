@@ -21,7 +21,7 @@ public class MyFirstApplet extends JApplet {
 	 * @throws HeadlessException
 	 */
 	public MyFirstApplet() throws HeadlessException {
-		// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub 
 	}
 
 	/*
