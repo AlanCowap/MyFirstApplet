@@ -1,6 +1,8 @@
 package com.alancowap.cag.applet;
 
 import java.awt.Graphics;
+import java.awt.Menu;
+import java.awt.MenuItem;
 
 import javax.swing.JApplet;
 import javax.swing.JLabel;
@@ -14,7 +16,11 @@ public class MySecondApplet extends JApplet {
 	 * Create the applet.
 	 */
 	public MySecondApplet() {
-
+		Menu menu = new Menu();
+		System.out.println(menu.getItemCount());
+		menu.add("test");
+		System.out.println(menu.getItemCount());
+		MenuItem mi = menu.getItem(0);
 	}
 
 	/*
