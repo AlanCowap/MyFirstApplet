@@ -43,6 +43,10 @@ public class DrawOvalApplet extends JApplet {
 		// let's draw a blue circle
 		g.setColor(Color.blue);
 		g.drawOval(70, 100, 20, 20);
+		
+		// let's draw a green 3D Rectangle
+		g.setColor(Color.green);
+		g.draw3DRect(40, 150, 80, 40, false);
 
 	}
 
