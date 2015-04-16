@@ -5,13 +5,14 @@ import javax.swing.JPanel;
 
 public class TestPanel extends JPanel {
 
-	JButton a = new JButton("A");
-
-	/**
+		/**
 	 * Create the panel.
 	 */
 	public TestPanel() {
 		//create a button
+		JButton a = new JButton("A");
+		add(a);
+		a = new JButton("B");
 		add(a);
 		setVisible(true);
 	}
