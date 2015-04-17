@@ -14,6 +14,8 @@ public class TestPanel extends JPanel {
 		add(a);
 		a = new JButton("B");
 		add(a);
+		a = new JButton("C");
+		add(a);
 		setVisible(true);
 	}
 
