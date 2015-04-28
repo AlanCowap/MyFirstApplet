@@ -48,6 +48,11 @@ public class DrawOvalApplet extends JApplet {
 		g.setColor(Color.green);
 		g.draw3DRect(40, 150, 80, 40, false);
 
+		// and put a black Rectangle inside the 3D rectangle
+		g.setColor(Color.black);
+		g.drawRect(65, 165, 35, 10);
+//		g.drawRoundRect(x, y, width, height, arcWidth, arcHeight);
+		
 	}
 
 }
